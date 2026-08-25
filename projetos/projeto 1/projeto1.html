@@ -15,7 +15,7 @@
     }
 
     #btnpg1:hover {
-      background-color: aqua;
+      background-color: rgb(248, 248, 248);
       color: bisque;
       opacity: 1 !important;
     }
@@ -29,17 +29,28 @@
 <body>
 
   <div style="min-height: 100vh;" class="d-flex flex-column">
-    <header style="min-height: 10vh;">
-
-
-
+    <header id="inicio" style="min-height: 10vh;">
       <nav class="navbar bg-body-tertiary" style="height: 10vh;background-color: rgba(7, 7, 7);">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img style="height: 50px; width: 50px;" src="./images/icons8-spider-man-new-50.png" alt="Logo" width="30"
-              height="24" class="d-inline-block align-text-top">
+            <img style="height: 50px; width: 50px;" src="./images/icons8-filhote-de-cachorro-67.png" alt="Logo"
+              width="30" height="24" class="d-inline-block align-text-top">
             cuidados com animais no verao
           </a>
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a style="color: black;" class="nav-link active" aria-current="page" href="#inicio">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a style="color: black;" class="nav-link" href="#pagina2">CUIDADOS COM PETS</a>
+            </li>
+            <li class="nav-item">
+              <a style="color: black;" class="nav-link" href="#pagina3">Link</a>
+            </li>
+            <li class="nav-item">
+              <a style="color: black;" class="nav-link disabled" aria-disabled="true">CONTATO</a>
+            </li>
+          </ul>
         </div>
       </nav>
 
@@ -47,12 +58,12 @@
     <main>
       <!--PAGINA 1-->
       <section
-        style="min-height: 90vh;background-image: url('./images/image.png'); background-size: cover;background-position: center;background-repeat: no-repeat;display:flex;align-items: center;justify-content: center;">
+        style="min-height: 90vh;background-image: url('images/image\ copy.png'); background-size: cover;background-position: center;background-repeat: no-repeat;display:flex;align-items: center;justify-content: center;">
         <h3 style="color: azure;background-color: rgb(0, 0, 0); ">seu pet precisa de atenção nesse verão!</h3>
         <h4 style="color: aliceblue; background-color: rgb(7, 7, 7);">o el nino esta chegando,cuidado para seu pet nao
           queimar as patinha!</h4>
         <hr>
-        <a href="">
+        <a href="#pagina2">
           <button style="opacity: 0,8;background-color: rgb(255, 251, 7);color: rgb(13, 13, 14);"
             class="btn btn-warning">clique aqui para saber mais
 
@@ -63,11 +74,11 @@
       </section>
 
       <!--PAGINA 2-->
-      <section id="pagina 2" style="min-height: 100vh;background-color: aqua; display: flex;">
+      <section id="pagina2" style="min-height: 100vh;background-color: aqua; display: flex;">
         <div class="container-fluid">
           <div class="row" style="min-height: 100vh;">
             <div class="col-12 col-md-6 d-flex flex-column align-items-center"
-              style="background-color: aqua; justify-content: center ;"></div>
+              style="background-color: rgb(12, 255, 243); justify-content: center ;"></div>
             <h2>cuidados com o pet</h2>
             <hr>
 
@@ -118,9 +129,9 @@
 
 
             <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content center"
-              style="background-color: aqua;">
+              style="background-color: rgb(255, 255, 255); width: 220vh;">
 
-              <H2>prncipai impactos do el nino nos pets!</H2>
+              <H2>prncipais impactos do el nino nos pets!</H2>
               <hr>
               <ul class="list-group">
                 <li class="list-group-item list-group-item-danger" aria-current="true">problemas respiratorios</li>
@@ -134,7 +145,7 @@
         </div>
       </section>
       <!--PAGINA 3-->
-      <section style="min-height: 100vh;background-color: brown; "
+      <section id="pagina3" style="min-height: 100vh;background-color: brown; "
         class="d-flex justify-content-center align-items-center flex-column">
         <h1>gostaria de mais informções? entre em contato</h1>
         <hr>
@@ -154,9 +165,22 @@
       </section>
     </main>
 
-    <footer class="mt-auto" style="min-height: 10vh;background-color: black;">
-
-
+    <footer class="mt-auto d-flex align-items-center justify-content-center   "
+      style="min-height: 10vh;background-color: rgb(255, 255, 255);">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a style="color: rgb(0, 0, 0);" class="nav-link active" aria-current="page" href="#inicio">INICIO</a>
+        </li>
+        <li class="nav-item">
+          <a style="color: black;" class="nav-link" href="#pagina2">CUIDADOS COM PETS</a>
+        </li>
+        <li class="nav-item">
+          <a style="color: black;" class="nav-link" href="#pagina3">Link</a>
+        </li>
+        <li class="nav-item">
+          <a style="color: black;" class="nav-link disabled" aria-disabled="true">CONTATO</a>
+        </li>
+      </ul>
     </footer>
 
   </div>
