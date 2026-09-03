@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>bootstrap projeto 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        #btnpg1:hover {
+            background-color: rgb(250, 250, 250);
+            color: bisque;
+            opacity: 1 !important;
+        }
+
+        #apg1 {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="min-height: 100vh;" class="d-flex flex-column">
+        <header id="inicio" style="min-height: 8vh;">
+            <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img style="height: vh;width: 10vh;" src="./images/image.png" alt="Logo" width="33" h-eight="28"
+                            class="d-inline-block align-text-top">
+                    </a>
+                    <ul style="background-color: rgba(172, 245, 220, 0.548);border-radius: 10px;"
+                        class="nav justify-content-center">
+                        </li>
+                        <li class="nav-item">
+                            <a style="color: black;" class="nav-link" href="#pagina1">inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="color: black;" class="nav-link" href="#pagina2">destaques</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="color: black;" class="nav-link" href="#pagina3">remedios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="color: black;" class="nav-link" href="">nossa historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="color: black;" class="nav-link" href="">contato</a>
+                        </li>
+                    </ul>
+                    </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div id="pagina1">
+                <section style="min-height: 50vh;background-color: rgba(172, 245, 220, 0.548);">
+                    <h1 style="display: flex;justify-content: center;">
+                        MedSync
+                        <br>
+                        <h2 style="display: flex;justify-content: center;">
+                            <br>
+                            "Saúde em perfeita sincronia."
+                        </h2>
+                        <h3 style="display: flex;justify-content: center;">
+                            <br>
+                            Sua farmácia de bairro em Rio Claro/SP. Oferecemos atendimento humanizado
+                        </h3>
+                        <h4 style="display: flex;justify-content: center;">orientação
+                            farmacêutica de confiança e entrega ágil para cuidar da sua saúde integral.
+                        </h4>
+                        <br>
+                    </h1>
+                    <br>
+
+                    <div id="ver remedios é catalogo ">
+                        <button
+                            style="display: flex;justify-self: center;justify-items: center;border-radius: 5px;background-color:rgb(181, 238, 248) ; ">
+                            ver remedios é catalogo
+                        </button>
+                    </div>
+                    <br>
+                    <div id="nossa historia">
+                        <button
+                            style="display: flex;justify-self: center;justify-items: center;border-radius: 5px;background-color: rgb(206, 253, 253);">
+                            conheça nossa hitoria !
+                        </button>
+                    </div>
+                </section>
+                <div>
+                    <img style="display: flex;justify-content: center;justify-self: center;height: 50vh;width: 205vh;"
+                        src="./images/image copy.png" alt="">
+                </div>
+            </div>
+    </div>
+
+    <section id="pagina2">
+        <div class="card-group">
+            <div class="card">
+                <img style="width: 40%;height: 20vh; " src="./images/di.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">DIPIRONA</h5>
+                    <p class="card-text"></p>
+                    <p class="card-text"><small class="text-body-secondary"></small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img style="height: 20vh;width: 30vh; " src="./images/image vi.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">VITAMINA C</h5>
+                    <p class="card-text"></p>
+                    <p class="card-text"><small class="text-body-secondary"></small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img style="width: 30vh; height: 20vh; " src="./images/p.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">PARECETAMOL</h5>
+                    <p class="card-text"></p>
+                    <p class="card-text"><small class="text-body-secondary"></small></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <h1 style="display: flex;justify-content: center; background-color: rgb(173, 236, 199);color: rgb(0, 0, 0);">
+        MEDICAMENTOS</h1>
+    <div>
+        <section id="pagina3">
+
+            <div class="card-group">
+                <div class="card">
+                    <img style="width: 50%;height: 40vh; " src="./images/remdio D.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">paracetamol</h5>
+                        <p class="card-text">30,00</p>
+                        <button onclick="alert('adicionado ao carrinho')">comprar</button>
+                        <p class="card-text"><small class="text-body-secondary"></small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img style="height: 35vh;width: 20vh; " src="./images/remedio I.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class=card-tittl>ibuprofenu</h5>
+                        <p class="card-text">19.00</p>
+                        <button onclick="alert('adicionado ao carrinho')">comprar</button>
+                        <p class="card-text"><small class="text-body-secondary"></small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img style="width: 20vh; height: 40vh; " src="./images/l.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">loratadina</h5>
+                        <p class="card-text">10,00</p>
+                        <button onclick="alert('adicionado ao carrinho')">comprar</button>
+                        <p class="card-text"><small class="text-body-secondary"></small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img style="width: 20vh; height: 40vh; " src="./images/b.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">brocomax</h5>
+                        <p class="card-text">10,00</p>
+                        <button onclick="alert('adicionado ao carrinho')">comprar</button>
+                        <p class="card-text"><small class="text-body-secondary"></small></p>
+                    </div>
+                     </div>
+                <div class="card">
+                    <img style="width: 20vh; height: 40vh; " src="./images/v.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">verilax</h5>
+                        <p class="card-text">13,00</p>
+                        <button onclick="alert('adicionado ao carrinho')">comprar</button>
+                        <p class="card-text"><small class="text-body-secondary"></small></p>
+                    </div>
+                              </div>
+                <div class="card">
+                    <img style="width: 20vh; height: 40vh; " src="./images/drmin.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">dramin</h5>
+                        <p class="card-text">38,00</p>
+                        <button onclick="alert('adicionado ao carrinho')">comprar</button>
+                        <p class="card-text"><small class="text-body-secondary"></small></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div style="min-height: 50vh;">
+        <h1 style="display: flex;justify-content: center;">
+            MedSync
+            <br>
+            <h2 style="display: flex;justify-content: center;">
+                <br>
+                A HISTORIA DA MedSync
+            </h2>
+            <h3 style="display: flex;justify-content: center;">
+                <br>
+                A MedSync nasceu do encontro entre amizade, educação e propósito. Criada pelos
+                professores Daniel, Eduardo e Grilo (Lázaro), a empresa surgiu das vivências em sala de
+                aula ao presenciarem as dificuldades que alunos e famílias enfrentavam para ter acesso a
+                medicamentos e orientação farmacêutica humana.
+            </h3>
+            <br>
+            <h4 style="display: flex;justify-content: center;">O projeto ganhou ainda mais significado durante o
+                tratamento de câncer enfrentado por
+                Grilo, momento que revelou de perto como o cuidado em saúde exige acolhimento,
+                orientação e empatia além do medicamento.
+
+                Instalada em Rio Claro/SP, a MedSync foi idealizada para ser uma farmacia de bairro
+                moderna, visando sincronizar saúde, tecnologia e atenção humana.
+            </h4>
+            <br>
+        </h1>
+        <br>
+    </div>
+    <br>
+
+    <div style="min-height: 50vh;">
+        <h1 style="display: flex;justify-content: center;">
+            MedSync
+            <br>
+            <h2 style="display: flex;justify-content: center;">
+                <br>
+                FALE CONOSCO
+            </h2>
+            <h3 style="display: flex;justify-content: center;">
+                <br>
+                Informações da Farmácia
+                <br>
+                Endereço: Rio Claro / SP
+                <br>
+                Telefone: (19) 3500-0000
+                <br>
+                E-mail: contato@medsync.com.br
+                <br>
+                Horário: Segunda a Sábado: 08h às 20h
+            </h3>
+            <br>
+            <br>
+        </h1>
+        <br>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <body>
+        <html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        ,,,,,
